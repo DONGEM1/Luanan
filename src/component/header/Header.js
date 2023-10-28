@@ -1,32 +1,45 @@
 import { useState } from 'react';
 import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText,
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem,
+  NavbarText,
+  Container,
 } from 'reactstrap';
+import logo from './logo.jpg';
+import './Header.css';
 
-  
-export default function Header(){
-    const [isOpen, setIsOpen] = useState(false);
+export default function Header() {
+  const [isOpen, setIsOpen] = useState(false);
 
-    const toggle1 = () => setIsOpen(!isOpen);
-    return (
-        <div>
-        <Navbar >
-          <NavbarBrand href="/">Home</NavbarBrand>
-          <NavbarBrand href="/">Home</NavbarBrand>
+  const toggle1 = () => setIsOpen(!isOpen);
+  return (
+    <div>
+      <Container>
+        <Navbar className='padding-top 4rem'>
+          <div>
+            <NavbarBrand href="/" > <i class="fa-solid fa-bars"></i> DANH MỤC</NavbarBrand>
+            <NavbarBrand href="/" ><i class="fa-solid fa-magnifying-glass"></i> TÌM KIẾM</NavbarBrand>
+            <NavbarBrand href="/" > <i class="fa-regular fa-user"></i> ĐĂNG NHẬP</NavbarBrand>
+          </div>
+
+          <NavbarBrand href="/"><img style={{ width: "100px" }} src={logo} /></NavbarBrand>
+          <div>
+            <NavbarBrand href="/" >  <i class="fa-regular fa-heart"></i> YÊU THÍCH</NavbarBrand>
+            <NavbarBrand href="/" > <i class="fa-solid fa-code-compare"></i> SOA SÁNH</NavbarBrand>
+            <NavbarBrand href="/" > <i class="fa-regular fa-user"></i>  GIỎ HÀNG</NavbarBrand>
+          </div>
           <NavbarToggler onClick={toggle1} />
           <Collapse isOpen={isOpen} navbar>
-            <Nav className="me-auto" navbar>
+            <Nav className=" me-auto" navbar>
               <NavItem>
                 <NavLink href="/components/">Components</NavLink>
               </NavItem>
@@ -50,6 +63,8 @@ export default function Header(){
             <NavbarText>Simple Text</NavbarText>
           </Collapse>
         </Navbar>
-      </div>
-    )
+      </Container>
+
+    </div>
+  )
 }

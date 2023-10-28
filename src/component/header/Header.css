@@ -1,0 +1,9 @@
+.container{
+    color: rgb(255, 254, 254);
+    
+    background: rgb(112, 105, 105);
+}
+.navbar-brand {
+    color: #fff !important;
+    font-size: 17px !important;
+}
