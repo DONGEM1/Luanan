@@ -26,8 +26,8 @@ export default function Header() {
       <Container>
         <Navbar className='padding-top 4rem'>
           <div>
-            <NavbarBrand href="/" > <i class="fa-solid fa-bars"></i> DANH MỤC</NavbarBrand>
-            <NavbarBrand href="/" ><i class="fa-solid fa-magnifying-glass"></i> TÌM KIẾM</NavbarBrand>
+            {/* <NavbarBrand href="/" > <i class="fa-solid fa-bars"></i> DANH MỤC</NavbarBrand> */}
+            <NavbarBrand href="/" ><i class="fa-solid fa-magnifying-glass"></i> TÌM KIẾM <input></input></NavbarBrand>
             <NavbarBrand href="/" > <i class="fa-regular fa-user"></i> ĐĂNG NHẬP</NavbarBrand>
           </div>
 

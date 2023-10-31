@@ -1,0 +1,15 @@
+.container {
+    color: black !important;
+   
+}
+.col{
+    border: none !important;
+}
+.col button{
+    padding: 2px 10px;
+    font-size: 14px;
+    margin-left: 2px;
+}
+.col h2 a i{
+    margin: 7px !important;
+}
