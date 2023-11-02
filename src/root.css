@@ -1,0 +1,14 @@
+:root{
+    --blude: #333;
+    --red:#ff0000;
+    --black:#000000;
+    --White:#ffffff;
+}
+:root {
+    --font-fallback: "BlinkMacSystemFont", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+      "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "sans-sans";
+  }
+  
+  h1, h2 {
+    font-family: "JobClarendon", var(--font-fallback);
+  }

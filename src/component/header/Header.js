@@ -12,10 +12,12 @@ import {
   DropdownMenu,
   DropdownItem,
   NavbarText,
-  Container,
+  Container
+  
 } from 'reactstrap';
 import logo from './logo.jpg';
 import './Header.css';
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +25,7 @@ export default function Header() {
   const toggle1 = () => setIsOpen(!isOpen);
   return (
     <div>
-      <Container>
+      <Container fluid={true} className="p-0">
         <Navbar className='padding-top 4rem'>
           <div>
             {/* <NavbarBrand href="/" > <i class="fa-solid fa-bars"></i> DANH MỤC</NavbarBrand> */}
@@ -64,7 +66,6 @@ export default function Header() {
           </Collapse>
         </Navbar>
       </Container>
-
     </div>
   )
 }
