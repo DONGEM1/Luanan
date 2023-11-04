@@ -1,3 +1,40 @@
 .col{
     margin-top: 10px !important;
 }
+.row{
+    flex-wrap: none !important;
+}
+/* .card-title{
+    text-align: center !important;
+}
+.card-subtitle{
+    text-align: center !important;
+}
+.card-text{
+    text-align: center !important;
+}
+.btn-secondary{
+    margin:0 auto !important;
+} */
+.card-body{
+ text-align: center;
+}
+.card-subtitle del{
+    margin-right: 10px;
+    color: black;
+}
+.card-subtitle strong{
+    margin-left: 10px;
+    color: rgb(255, 0, 0);
+}
+.btn{
+    background: brown !important;
+    border: none !important;
+    padding: 5px 15px !important;
+}
+.card{
+    padding-bottom: 40px !important;
+}
+.container{
+    background: black !important;
+}

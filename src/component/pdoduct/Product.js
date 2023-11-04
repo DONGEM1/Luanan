@@ -9,7 +9,7 @@ export default function Product() {
                 <Col>
                     <Card
                         style={{
-                            width: '18rem'
+                            width: '1rem'
                         }}
                     >
                         <img
@@ -24,162 +24,19 @@ export default function Product() {
                                 className="mb-2 text-muted"
                                 tag="h6"
                             >
-                                4000$-5000$
+                                <del>500.00vnd</del>
+                                <strong>400.000vnd</strong>
                             </CardSubtitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the cards content.
+                                Đồng hồ nam cao cấp dành cho dân văn ph
                             </CardText>
                             <Button>
-                                Button
+                                Vào Mua
                             </Button>
                         </CardBody>
                     </Card>
                 </Col>
-                <Col>
-                    <Card
-                        style={{
-                            width: '18rem'
-                        }}
-                    >
-                        <img
-                            alt="Dong ho nam"
-                            src={img3}
-                        />
-                        <CardBody>
-                            <CardTitle tag="h5">
-                                Casino FaceOshee
-                            </CardTitle>
-                            <CardSubtitle
-                                className="mb-2 text-muted"
-                                tag="h6"
-                            >
-                                4000$-5000$
-                            </CardSubtitle>
-                            <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the cards content.
-                            </CardText>
-                            <Button>
-                                Button
-                            </Button>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card
-                        style={{
-                            width: '18rem'
-                        }}
-                    >
-                        <img
-                            alt="Dong ho nam"
-                            src={img3}
-                        />
-                        <CardBody>
-                            <CardTitle tag="h5">
-                                Casino FaceOshee
-                            </CardTitle>
-                            <CardSubtitle
-                                className="mb-2 text-muted"
-                                tag="h6"
-                            >
-                                4000$-5000$
-                            </CardSubtitle>
-                            <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the card‘s content.
-                            </CardText>
-                            <Button>
-                                Button
-                            </Button>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card
-                        style={{
-                            width: '18rem'
-                        }}
-                    >
-                        <img
-                            alt="Dong ho nam"
-                            src={img3}
-                        />
-                        <CardBody>
-                            <CardTitle tag="h5">
-                                Casino FaceOshee
-                            </CardTitle>
-                            <CardSubtitle
-                                className="mb-2 text-muted"
-                                tag="h6"
-                            >
-                                4000$-5000$
-                            </CardSubtitle>
-                            <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the cards content.
-                            </CardText>
-                            <Button>
-                                Button
-                            </Button>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card
-                        style={{
-                            width: '18rem'
-                        }}
-                    >
-                        <img
-                            alt="Dong ho nam"
-                            src={img3}
-                        />
-                        <CardBody>
-                            <CardTitle tag="h5">
-                                Casino FaceOshee
-                            </CardTitle>
-                            <CardSubtitle
-                                className="mb-2 text-muted"
-                                tag="h6"
-                            >
-                                4000$-5000$
-                            </CardSubtitle>
-                            <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the cards content.
-                            </CardText>
-                            <Button>
-                                Button
-                            </Button>
-                        </CardBody>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card
-                        style={{
-                            width: '18rem'
-                        }}
-                    >
-                        <img
-                            alt="Dong ho nam"
-                            src={img3}
-                        />
-                        <CardBody>
-                            <CardTitle tag="h5">
-                                Casino FaceOshee
-                            </CardTitle>
-                            <CardSubtitle
-                                className="mb-2 text-muted"
-                                tag="h6"
-                            >
-                                4000$-5000$
-                            </CardSubtitle>
-                            <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the cards content.
-                            </CardText>
-                            <Button>
-                                Button
-                            </Button>
-                        </CardBody>
-                    </Card>
-                </Col>
+
             </Row>
 
         </Container>
